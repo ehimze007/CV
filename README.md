@@ -1,2 +1,3 @@
-# first-html-website
-My first website. (Purely HTML)
+# Personal website
+
+This website is a test run for my understanding of creating repositories, cloning, committing, pulling request and merging my pull request.
