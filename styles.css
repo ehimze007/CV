@@ -1,40 +1,94 @@
 body {
+  background-image: linear-gradient(180deg, #0b0a0c, #080808,#0b0a0c);
   text-align: center;
   margin: 0;
   font-family: 'Montserrat', sans-serif;
-  color: #40514e;
+  color: #a7f7e8;
   font-size: 1.5rem;
 }
 
-.headerDiv{
-background-color: blue;
+.navbar {
+  background-color: #0b0a0c;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  height: 4rem;
 }
 
-.top-container {
-  background-color: #EAF6F6;
-  position: relative;
-  margin: 0;
-  padding: 100px 0 0 0;
-  font-family: 'Montserrat', sans-serif;
+.webdevimg {
+  width: auto;
+  height: 30rem;
+  background-image: url("webdevimg.jpg");
+  background-size: 100% 100%;
+}
+
+.profile-photodiv {
+  margin: -150px auto 0 auto;
+  width: 300px;
+  height: 350px;
+  background-image: url("ehimze-photo.jpg");
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  border-radius: 50%;
+}
+
+.introdiv {
+  font-family: 'Sacramento', cursive;
+  margin: 1rem;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.profile-introdiv {
+  margin-top: 2rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+}
+
+.top-cloud {
+  width: 200px;
+  align-self: flex-end;
+  margin-right: 2rem;
+}
+
+.bottom-cloud {
+  width: 200px;
+  align-self: flex-start;
+  margin: 0 0 2rem 2rem;
 }
 
 h1 {
-  margin: 50px auto 0 auto;
+  margin: 10px;
   font-family: 'Sacramento', cursive;
-  font-size: 6rem;
-  color: #66BFBF;
+  font-size: 5rem;
 }
 
 h2 {
   font-size: 2.5rem;
-  color: #66BFBF;
-  font-weight: bold;
-  font-family: 'Montserrat', sans-serif;
+  font-family: 'Sacramento', cursive;
   padding-bottom: 10px;
 }
 
-h3 {
-  color: #11999e;
+.contact-me {
+  width: 60%;
+  height: 30%;
+  margin: 2rem auto;
+  border-radius: 25px;
+  background-color: #66BFBF;
+  color: #0b0a0c;
+  padding: 2rem 0;
+}
+
+.discourse-invite{
+font-size: 2.5em;
+}
+
+.contact-message {
+  width: 70%;
+  margin: 40px auto 60px;
 }
 
 a {
@@ -50,86 +104,19 @@ a:hover {
 
 p {
   font-family: 'Montserrat', sans-serif;
-  color: #40514e;
   line-height: 2;
   font-size: 1.5rem;
 }
 
-.intro {
-  width: 50%;
-  margin: auto;
-}
-
-.middle-container {
-  margin: 100px 0;
-  font-family: 'Montserrat', sans-serif
-}
-
 .bottom-container {
   color: #11999e;
-  background-color: #66BFBF;
   padding: 50px 0 30px;
-}
-
-.footer-link {}
-
-.bottom-cloud {
-  position: absolute;
-}
-
-.top-cloud {
-  position: absolute;
-  right: 200px;
-  top: 40px;
-}
-
-.profile-photo {
-  width: 100px;
-  height: 100px;
-  border-radius: 50px;
-}
-
-.skill-row {
-  width: 50%;
-  margin: 100px auto 100px auto;
-  text-align: justify;
-  line-height: 2;
-}
-
-.skill-1-image {
-  width: 100px;
-  height: 100px;
-  float: left;
-  margin-right: 30px;
-}
-
-.skill-2-image {
-  width: 100px;
-  height: 100px;
-  float: right;
-  margin-left: 30px;
-}
-
-hr {
-  border-style: dotted;
-  border-width: 5px 0 0 0;
-  width: 50px;
-  border-color: #EAF6F6;
-  margin: 100px auto;
 }
 
 .copyright-text {
   color: #EAF6F6;
 }
 
-.contact-me {
-  background-color: #66BFBFl
-}
-
-.contact-message {
-  width: 40%;
-  margin: 40px auto 60px;
-}
 
 .btn {
   background: linear-gradient(to bottom, #11cdd4 5%, #11999e 100%);
@@ -138,7 +125,7 @@ hr {
   border: 1px solid #18ab29;
   display: inline-block;
   cursor: pointer;
-  color: #ffffff;
+  color: #0b0a0c;
   font-family: 'Montserrat', sans-serif;
   font-size: 20px;
   font-weight: bold;
@@ -163,4 +150,3 @@ hr {
   margin: 0;
   padding: 50px 0 0 0;
 }
-
